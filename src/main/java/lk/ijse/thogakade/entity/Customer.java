@@ -10,7 +10,7 @@ import javax.persistence.Table;
 public class Customer {
 
     @Id
-    @Column(name = "id",length = 8)
+    @Column(name = "id",length = 8, columnDefinition = "Tinyint")
     private String id;
     @Column(name = "name",nullable = false, length = 40)
     private String name;

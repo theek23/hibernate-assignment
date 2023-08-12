@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7124a3-4a41-4190-a3bd-49aee035122c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/config/SessionFactoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/config/SessionFactoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/firstpage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/firstpage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/manageitem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/manageitem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/manageorder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/manageorder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/manageorderdetails.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/manageorderdetails.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/contoller/SavecustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/contoller/SavecustomerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/savecustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/savecustomerForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/config/SessionFactoryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/config/SessionFactoryConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/firstpage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/firstpage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/manageitem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/manageitem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/manageorder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/manageorder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/manageorderdetails.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/manageorderdetails.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/contoller/SavecustomerFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/contoller/SavecustomerFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/entity/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/savecustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/savecustomerForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +45,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/imgs" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Sir's project/GDSE-66-hibernate-native-bootstrapping" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
@@ -83,6 +73,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Launcher" />
@@ -103,6 +104,8 @@
       <workItem from="1691736006318" duration="3965000" />
       <workItem from="1691743403478" duration="25381000" />
       <workItem from="1691810100466" duration="4555000" />
+      <workItem from="1691815010553" duration="389000" />
+      <workItem from="1691815431255" duration="5438000" />
     </task>
     <servers />
   </component>

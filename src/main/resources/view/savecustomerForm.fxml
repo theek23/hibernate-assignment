@@ -11,7 +11,7 @@
 <AnchorPane prefHeight="400.0" prefWidth="954.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.contoller.SavecustomerFormController">
    <children>
       <Button fx:id="savebtn" layoutX="67.0" layoutY="329.0" mnemonicParsing="false" onAction="#savebtnonaction" prefHeight="26.0" prefWidth="74.0" text="Save" />
-      <TextField fx:id="idtxt" layoutX="86.0" layoutY="114.0" prefHeight="26.0" prefWidth="299.0" promptText="Id" />
+      <TextField fx:id="idtxt" layoutX="86.0" layoutY="114.0" onAction="#idTxtOnAction" prefHeight="26.0" prefWidth="299.0" promptText="Id" />
       <TextField fx:id="nametxt" layoutX="86.0" layoutY="161.0" prefHeight="26.0" prefWidth="299.0" promptText="Name" />
       <TextField fx:id="addresstxt" layoutX="86.0" layoutY="210.0" prefHeight="26.0" prefWidth="299.0" promptText="Address" />
       <TextField fx:id="salarytxt" layoutX="86.0" layoutY="259.0" prefHeight="26.0" prefWidth="299.0" promptText="Salary" />

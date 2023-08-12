@@ -105,4 +105,12 @@ public class SavecustomerFormController implements Initializable {
         addresstxt.setText(existingCustomer.getAddress());
         salarytxt.setText(String.valueOf(existingCustomer.getSalary()));
     }
+
+    public void idTxtOnAction(ActionEvent actionEvent) {
+        CustomerRepository cusRepository = new CustomerRepository();
+        Customer existingCustomer = cusRepository.getCustomer(idtxt.getText());
+        nametxt.setText(existingCustomer.getName());
+        addresstxt.setText(existingCustomer.getAddress());
+        salarytxt.setText(String.valueOf(existingCustomer.getSalary()));
+    }
 }
