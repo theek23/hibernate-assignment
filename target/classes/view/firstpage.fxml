@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="444.0" prefWidth="486.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.contoller.FirstpageController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="42.0" prefWidth="115.0" text="Thogakade" textFill="#2d3bd7">
+         <font>
+            <Font name="Century" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="savebtn" layoutX="119.0" layoutY="112.0" mnemonicParsing="false" onAction="#savebtnonAction" prefHeight="55.0" prefWidth="246.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Customer">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0">
+               <image>
+                  <Image url="@../imgs/icons8-customer-100.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="manageItembtn" layoutX="119.0" layoutY="200.0" mnemonicParsing="false" onAction="#manageItembtnonAction" prefHeight="55.0" prefWidth="246.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Item">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0">
+               <image>
+                  <Image url="@../imgs/icons8-item-96.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="manageOrderbtn" layoutX="119.0" layoutY="285.0" mnemonicParsing="false" onAction="#manageOrderbtnonAction" prefHeight="55.0" prefWidth="246.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0">
+               <image>
+                  <Image url="@../imgs/icons8-more-details-100.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="orderdetailbtn" layoutX="120.0" layoutY="362.0" mnemonicParsing="false" onAction="#orderdetailbtnonaction" prefHeight="55.0" prefWidth="246.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order Details">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0">
+               <image>
+                  <Image url="@../imgs/icons8-order-96.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="190.0" layoutY="37.0" prefHeight="42.0" prefWidth="106.0" text="Dahsboard">
+         <font>
+            <Font name="Dubai Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
